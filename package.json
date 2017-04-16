@@ -1,0 +1,25 @@
+{
+  "name": "addstore",
+  "version": "1.0.0",
+  "description": "Simple addstore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "jwt-simple": "^0.5.1",
+    "mocha": "^3.2.0",
+    "mongoose": "*",
+    "node-uuid": "^1.4.8",
+    "request": "^2.79.0",
+    "server": "0.0.3",
+    "should": "^11.1.2"
+  },
+  "author": "Pratip Mondal",
+  "license": "ISC"
+}
