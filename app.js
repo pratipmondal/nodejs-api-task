@@ -16,7 +16,7 @@ app.get('/api/authentication/:user/:password', function(req,res){
 	console.log('I am inside /api/authentication/:user/:password........1'+req.params.user.toString()+req.params.password.toString());
 	var result = '';
 	if(req.params.user.toString().trim() != null && req.params.password.toString().trim() != null){
-		if(req.params.user.toString().trim() == "pratip" && req.params.password.toString().trim() == "pratip123"){
+		if(req.params.user.toString().trim() == "pratip.ibm@gmail.com" && req.params.password.toString().trim() == "pratip123"){
 			result = "SUCCESS";
 		}else{
 			result = "LOGIN FAILED!!!!";
